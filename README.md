@@ -8,7 +8,7 @@ This is a console-based Garage Management System that allows you to efficiently 
 
 To run the Garage Management System, you will need a C# development environment or an IDE that supports C# code. The system consists of two main components: the GarageLogic library and the ConsoleUI application. First, let's take a look at the GarageLogic library, which contains the vehicle-related classes and logic.
 
-```
+```python
 **GarageLogic:**
 
 The GarageLogic library contains the core classes and logic for managing vehicles.
