@@ -8,6 +8,7 @@ This is a console-based Garage Management System that allows you to efficiently 
 
 To run the Garage Management System, you will need a C# development environment or an IDE that supports C# code. The system consists of two main components: the GarageLogic library and the ConsoleUI application. First, let's take a look at the GarageLogic library, which contains the vehicle-related classes and logic.
 
+```
 **GarageLogic:**
 
 The GarageLogic library contains the core classes and logic for managing vehicles.
@@ -37,13 +38,20 @@ The GarageLogic library contains the core classes and logic for managing vehicle
 - `VehicleOwner.cs`: This class represents a vehicle owner and contains information about the owner and their vehicle.
 
 - `Garage.cs`: This class represents the garage and manages the vehicles and vehicle owners.
+```
 
+```
 **ConsoleUI:**
 
 The ConsoleUI is the user interface component of the Garage Management System.
 
 - `Program.cs`: This is the main entry point of the ConsoleUI application. It contains the main menu and handles user input.
 
+- `GarageManager.cs`: This class manages the interaction between the user and the GarageLogic library. It displays the landing page and handles user actions for adding new vehicles, updating vehicle status, inflating tires, refueling, and more.
+
+- `InputCheck.cs`: This class contains helper methods for checking user inputs and validating data.
+
+```
 **How to Use:**
 
 To use the Garage Management System, follow these steps:
